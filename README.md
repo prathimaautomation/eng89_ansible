@@ -1,5 +1,6 @@
 
 # Ansible controller and agent nodes set up guide
+![](ansible.png)
 - Clone this repo and run `vagrant up`
 - `(double check syntax/intendation)`
 
