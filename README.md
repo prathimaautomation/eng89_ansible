@@ -115,12 +115,12 @@ logout of db
 
 `sudo nano hosts`
 
-```python
+```hosts
 [web]
-19.168.33.10 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+192.168.33.10 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
 
 [db]
-19.168.33.11 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+192.168.33.11 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
 
 ```
 - To check if we can successfully connect to our VM's we should ping them via the command.
