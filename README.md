@@ -98,7 +98,7 @@ check to see if ansible is installed via `ansible --version`
 ### Setting Connections to DB and Web
 
 - To connect our DB and Web we need to enter the hosts file and change the configuration.
-- We know that our web virtual machine has an IP of 19.168.33.10.
+- We know that our web virtual machine has an IP of 192.168.33.10.
 - We know that our db virtual machine has an Ip of 192.168.33.11.
 - We go into hosts and enter the following.
 
